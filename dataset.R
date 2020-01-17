@@ -7,7 +7,7 @@ library(stringr)
 library(tidytext)
 library(wordcloud)
 
-register_google(key="AIzaSyCDycq31vucrCUqM66JOOG7Vu-HPf0yqI8")
+register_google(key="")
 
 # yelp <- stream_in(file("~/Downloads/yelp_academic_dataset_business.json"))
 # yelp <- jsonlite::flatten(yelp)
