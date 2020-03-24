@@ -10,5 +10,9 @@ This was my motivation behind creating this Yelp Data Visualization Dashboard. A
 
 ## The Data
 The Yelp dataset is a publically available dataset on [Kaggle](https://www.kaggle.com/yelp-dataset/yelp-dataset). For this project, the specific datasets I was interested in were the business and business review datasets. The business dataset contained information about random business on Yelp in the form: 
-![alt text](images/data_preview.PNG "Data Preview") while the review dataset contained information that appeared like:
+
+
+![alt text](images/data_preview.PNG "Data Preview") 
+
+while the review dataset contained information that appeared like:
 ![alt text](images/reviews_preview.PNG "Review Preview")
