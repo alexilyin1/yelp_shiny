@@ -42,4 +42,5 @@ Following the data view was a general visualization of business attributes withi
 
 ![alt_text](images/city_wide.png)
 
+In this example, we can see these visualizations 
 
