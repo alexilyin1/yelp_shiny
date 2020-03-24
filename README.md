@@ -14,5 +14,13 @@ The Yelp dataset is a publically available dataset on [Kaggle](https://www.kaggl
 
 ![alt text](images/data_preview.PNG "Data Preview") 
 
-while the review dataset contained information that appeared like:
+while the review dataset contained information such as:
 ![alt text](images/reviews_preview.PNG "Review Preview")
+
+While this Kaggle dataset was a great resource, finding data on Kaggle was not my intended method of data collection. Since I chose R as my programming language of choice, I ran a Python script using BeautifulSoup/Selenium through R to collect data from Yelp. However, as Yelp prohibits scraping and the method was quite slow, I settled on the Kaggle data. 
+
+## Building the dashboard
+While my Big Data course had extensively covered ggplot and Tidyverse, Shiny was not. I decided to learn this tool as a way to apply what I had learned to a new R package. I had used some Shiny apps in the past, and this project would be a great way to investigate the usefulness of Shiny dashboards. After loading the data from Kaggle, the first steps were data "cleaning" (data comes relatively clean so hard to call it cleaning). My hope was to segment businesses by both category and location. Location would involve the use of Leaflet and a Google Maps API key to find the Lat/Lon coordinates of businesses from their address. Segmenting by category was hard to automate, and required the drafting of a list of the most popular business categories based on "domain knowledge". 
+
+After creating categories for each business, it was time to decided on the different aspects:
+
