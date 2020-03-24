@@ -26,5 +26,20 @@ While my Big Data course had extensively covered ggplot and Tidyverse, Shiny was
 
 After creating categories for each business, it was time to decided on the different features:
  1. Visualization map
-fadsfkdsfhadsfka
+
+This visualization map allows for the simple visualization of businesses, either by city, category of business, or both. For example, here is a visualization of all nightlife businesses in Toronto:
+
+
+![alt_text](images/map1.PNG)
+
+As shown, clicking on a business will reveal its different attributes. Next was a general overview of the dataset, shown as a table:
+
+
+![alt_text](images/data_view.png)
+
+Following the data view was a general visualization of business attributes within a city, specifically average rating and average review count. 
+
+
+![alt_text](images/city_wide.png)
+
 
