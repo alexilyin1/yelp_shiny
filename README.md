@@ -35,12 +35,12 @@ This visualization map allows for the simple visualization of businesses, either
 As shown, clicking on a business will reveal its different attributes. Next was a general overview of the dataset, shown as a table:
 
 
-![alt_text](images/data_view.png)
+![alt_text](data_view.PNG)
 
 Following the data view was a general visualization of business attributes within a city, specifically average rating and average review count. 
 
 
-![alt_text](images/city_wide.png)
+![alt_text](images/city_wide.PNG)
 
 In this example, we can see these visualizations 
 
