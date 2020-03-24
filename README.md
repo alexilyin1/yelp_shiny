@@ -35,12 +35,29 @@ This visualization map allows for the simple visualization of businesses, either
 As shown, clicking on a business will reveal its different attributes. Next was a general overview of the dataset, shown as a table:
 
 
-![alt_text](data_view.PNG)
+![alt_text](images/city_wide.PNG)
 
 Following the data view was a general visualization of business attributes within a city, specifically average rating and average review count. 
 
 
 ![alt_text](images/city_wide.PNG)
 
-In this example, we can see these visualizations 
+In this example, we can see these visualizations for the city of Charlotte, North Carolina. The next feature of the dashboard is a heatmap of business locations by category:
+
+
+![alt_text](images/heatmap.PNG)
+
+As the focus so far has been on geographic aspects of businesses, these visualizations are meant for the user to understand the location they are trying to enter (further extensions to be discussed later).
+
+Next, the focus of the dashboard shifts to review text. For simplicity, the rest of the analysis concers restaurants in the dataset. The first set of visualizations concerns the popularity of restaurants by genre in both a bar in pie chart. Next is a visualizations of a K-Means clustering alogrithm used to show the distribution of restaurants among defined neighborhoods in each city. This is an overview of the review data, and appears as follows:
+
+
+![alt_text](images/restaurant_base.PNG)
+
+Finally, the app concludes with a overview of the sentiment in user reviews by category of the restaurant, as well as a worldcloud of most common words found in reviews, this time segmented by city:
+
+
+![alt_text](images/text.PNG)
+
+
 
