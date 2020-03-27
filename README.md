@@ -37,7 +37,7 @@ This first is a interactive visualization map, which allows for the simple visua
 As shown, clicking on a business will reveal its different attributes. Next was a general overview of the dataset, shown as a table:
 
 
-![alt_text](images/city_wide.PNG)
+![alt_text](images/data_view.PNG)
 
 Following the data view was a general visualization of business attributes within a city, specifically average rating and average review count. 
 
