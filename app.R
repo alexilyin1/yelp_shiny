@@ -20,8 +20,7 @@ sidebar <- dashboardSidebar(
 body <- dashboardBody(
   tabItems(
     tabItem(tabName = "nav",
-            h1("Welcome to our Yelp app!"),
-            h2("Completed by Xiang Gao, Siqi Hu, Alexander Ilyin, Ziyuan Yan")),
+            h1("Welcome to our Yelp app!")
     tabItem(tabName = "maps", class = "active",
             fluidRow(
               box(selectInput("city_name", "City:",
